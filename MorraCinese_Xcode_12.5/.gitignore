@@ -14,4 +14,4 @@ xcuserdata/
 # Built Visual Studio Code Extensions
 *.vsix
 
-*.codeworkspace
+*.code-workspace
