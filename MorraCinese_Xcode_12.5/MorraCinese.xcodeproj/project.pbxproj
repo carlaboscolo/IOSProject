@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AF8D90A284DDE0C003107DC /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8D909284DDE0C003107DC /* Model */; };
+		3AF8D90C284DDE25003107DC /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8D90B284DDE25003107DC /* Controller */; };
 		F945BE3A28474B760009416D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3928474B760009416D /* AppDelegate.swift */; };
 		F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3B28474B760009416D /* SceneDelegate.swift */; };
 		F945BE3E28474B760009416D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3D28474B760009416D /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AF8D909284DDE0C003107DC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		3AF8D90B284DDE25003107DC /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
 		F945BE3628474B760009416D /* MorraCinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorraCinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F945BE3928474B760009416D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F945BE3B28474B760009416D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		F945BE3828474B760009416D /* MorraCinese */ = {
 			isa = PBXGroup;
 			children = (
+				3AF8D90B284DDE25003107DC /* Controller */,
+				3AF8D909284DDE0C003107DC /* Model */,
 				F945BE3928474B760009416D /* AppDelegate.swift */,
 				F945BE3B28474B760009416D /* SceneDelegate.swift */,
 				F945BE3D28474B760009416D /* ViewController.swift */,
@@ -129,6 +135,8 @@
 			files = (
 				F945BE4928474B780009416D /* LaunchScreen.storyboard in Resources */,
 				F945BE4628474B780009416D /* Assets.xcassets in Resources */,
+				3AF8D90A284DDE0C003107DC /* Model in Resources */,
+				3AF8D90C284DDE25003107DC /* Controller in Resources */,
 				F945BE4128474B760009416D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
