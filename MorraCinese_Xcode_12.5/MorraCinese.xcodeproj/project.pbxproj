@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD23E2D284DEF2500005A0E /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 3AD23E2C284DEF2500005A0E /* Tests */; };
 		3AF8D90A284DDE0C003107DC /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8D909284DDE0C003107DC /* Model */; };
 		3AF8D90C284DDE25003107DC /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8D90B284DDE25003107DC /* Controller */; };
 		F945BE3A28474B760009416D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3928474B760009416D /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AD23E2C284DEF2500005A0E /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
 		3AF8D909284DDE0C003107DC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		3AF8D90B284DDE25003107DC /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
 		F945BE3628474B760009416D /* MorraCinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorraCinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,7 @@
 		F945BE3828474B760009416D /* MorraCinese */ = {
 			isa = PBXGroup;
 			children = (
+				3AD23E2C284DEF2500005A0E /* Tests */,
 				3AF8D90B284DDE25003107DC /* Controller */,
 				3AF8D909284DDE0C003107DC /* Model */,
 				F945BE3928474B760009416D /* AppDelegate.swift */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD23E2D284DEF2500005A0E /* Tests in Resources */,
 				F945BE4928474B780009416D /* LaunchScreen.storyboard in Resources */,
 				F945BE4628474B780009416D /* Assets.xcassets in Resources */,
 				3AF8D90A284DDE0C003107DC /* Model in Resources */,
