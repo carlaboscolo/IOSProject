@@ -1,3 +1,5 @@
+import Foundation
+
 // A class that represents the rock scissors paper game.
 class Game {
    var availableMoves: [Move]

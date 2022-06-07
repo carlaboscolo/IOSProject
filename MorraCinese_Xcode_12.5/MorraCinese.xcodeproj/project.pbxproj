@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AF8D90A284DDE0C003107DC /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8D909284DDE0C003107DC /* Model */; };
-		3AF8D90C284DDE25003107DC /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8D90B284DDE25003107DC /* Controller */; };
 		837785D5284F35DE0021F8E1 /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785D4284F35DE0021F8E1 /* MorraCineseTests.swift */; };
+		837785E7284F39820021F8E1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785E6284F39820021F8E1 /* Game.swift */; };
+		837785EE284F39D80021F8E1 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785EA284F39D80021F8E1 /* Move.swift */; };
+		837785EF284F39D80021F8E1 /* Scissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785EB284F39D80021F8E1 /* Scissors.swift */; };
+		837785F0284F39D80021F8E1 /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785EC284F39D80021F8E1 /* Paper.swift */; };
+		837785F1284F39D80021F8E1 /* Rock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785ED284F39D80021F8E1 /* Rock.swift */; };
 		F945BE3A28474B760009416D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3928474B760009416D /* AppDelegate.swift */; };
 		F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3B28474B760009416D /* SceneDelegate.swift */; };
 		F945BE3E28474B760009416D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3D28474B760009416D /* ViewController.swift */; };
@@ -30,11 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AF8D909284DDE0C003107DC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		3AF8D90B284DDE25003107DC /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
 		837785D2284F35DE0021F8E1 /* MorraCineseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorraCineseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837785D4284F35DE0021F8E1 /* MorraCineseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorraCineseTests.swift; sourceTree = "<group>"; };
 		837785D6284F35DE0021F8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837785E6284F39820021F8E1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		837785EA284F39D80021F8E1 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		837785EB284F39D80021F8E1 /* Scissors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scissors.swift; sourceTree = "<group>"; };
+		837785EC284F39D80021F8E1 /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
+		837785ED284F39D80021F8E1 /* Rock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rock.swift; sourceTree = "<group>"; };
 		F945BE3628474B760009416D /* MorraCinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorraCinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F945BE3928474B760009416D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F945BE3B28474B760009416D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,25 @@
 			path = MorraCineseTests;
 			sourceTree = "<group>";
 		};
+		837785E8284F398A0021F8E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				837785E6284F39820021F8E1 /* Game.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		837785E9284F39CC0021F8E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				837785EA284F39D80021F8E1 /* Move.swift */,
+				837785EC284F39D80021F8E1 /* Paper.swift */,
+				837785ED284F39D80021F8E1 /* Rock.swift */,
+				837785EB284F39D80021F8E1 /* Scissors.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F945BE2D28474B760009416D = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +119,8 @@
 		F945BE3828474B760009416D /* MorraCinese */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8D90B284DDE25003107DC /* Controller */,
-				3AF8D909284DDE0C003107DC /* Model */,
+				837785E8284F398A0021F8E1 /* Controller */,
+				837785E9284F39CC0021F8E1 /* Model */,
 				F945BE3928474B760009416D /* AppDelegate.swift */,
 				F945BE3B28474B760009416D /* SceneDelegate.swift */,
 				F945BE3D28474B760009416D /* ViewController.swift */,
@@ -197,8 +222,6 @@
 			files = (
 				F945BE4928474B780009416D /* LaunchScreen.storyboard in Resources */,
 				F945BE4628474B780009416D /* Assets.xcassets in Resources */,
-				3AF8D90A284DDE0C003107DC /* Model in Resources */,
-				3AF8D90C284DDE25003107DC /* Controller in Resources */,
 				F945BE4128474B760009416D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,9 +241,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837785EF284F39D80021F8E1 /* Scissors.swift in Sources */,
 				F945BE4428474B760009416D /* MorraCinese.xcdatamodeld in Sources */,
+				837785E7284F39820021F8E1 /* Game.swift in Sources */,
+				837785F1284F39D80021F8E1 /* Rock.swift in Sources */,
 				F945BE3E28474B760009416D /* ViewController.swift in Sources */,
 				F945BE3A28474B760009416D /* AppDelegate.swift in Sources */,
+				837785EE284F39D80021F8E1 /* Move.swift in Sources */,
+				837785F0284F39D80021F8E1 /* Paper.swift in Sources */,
 				F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

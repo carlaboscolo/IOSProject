@@ -7,6 +7,8 @@
 
 import XCTest
 
+@testable import MorraCinese
+
 class MorraCineseTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -20,7 +22,7 @@ class MorraCineseTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let game = Game()
+//        let game = Game()
     }
 
     func testPerformanceExample() throws {
