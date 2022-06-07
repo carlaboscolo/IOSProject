@@ -15,7 +15,10 @@ class SimpleGameScreen: UIViewController {
     }
     
 
+    @IBAction func backToFistView(_ sender: UIButton) {
     
+        self.navigationController?.popToRootViewController(animated: true)
+    }
     
 
     
