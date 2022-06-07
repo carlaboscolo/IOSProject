@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C554E4F284F487700137A73 /* Lizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C554E4E284F487700137A73 /* Lizard.swift */; };
+		7C554E51284F48F500137A73 /* Spock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C554E50284F48F500137A73 /* Spock.swift */; };
 		837785D5284F35DE0021F8E1 /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785D4284F35DE0021F8E1 /* MorraCineseTests.swift */; };
 		837785E7284F39820021F8E1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785E6284F39820021F8E1 /* Game.swift */; };
 		837785EE284F39D80021F8E1 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837785EA284F39D80021F8E1 /* Move.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C554E4E284F487700137A73 /* Lizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lizard.swift; sourceTree = "<group>"; };
+		7C554E50284F48F500137A73 /* Spock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spock.swift; sourceTree = "<group>"; };
 		837785D2284F35DE0021F8E1 /* MorraCineseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorraCineseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837785D4284F35DE0021F8E1 /* MorraCineseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorraCineseTests.swift; sourceTree = "<group>"; };
 		837785D6284F35DE0021F8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				837785EC284F39D80021F8E1 /* Paper.swift */,
 				837785ED284F39D80021F8E1 /* Rock.swift */,
 				837785EB284F39D80021F8E1 /* Scissors.swift */,
+				7C554E4E284F487700137A73 /* Lizard.swift */,
+				7C554E50284F48F500137A73 /* Spock.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,9 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C554E51284F48F500137A73 /* Spock.swift in Sources */,
 				837785EF284F39D80021F8E1 /* Scissors.swift in Sources */,
 				F945BE4428474B760009416D /* MorraCinese.xcdatamodeld in Sources */,
 				837785E7284F39820021F8E1 /* Game.swift in Sources */,
+				7C554E4F284F487700137A73 /* Lizard.swift in Sources */,
 				837785F1284F39D80021F8E1 /* Rock.swift in Sources */,
 				F945BE3E28474B760009416D /* ViewController.swift in Sources */,
 				F945BE3A28474B760009416D /* AppDelegate.swift in Sources */,

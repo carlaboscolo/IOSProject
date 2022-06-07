@@ -1,11 +1,11 @@
 import Foundation
 
-class Scissors: Move {
+class Spock: Move {
     var name: String {
-        return "Scissors"
+        return "Spock"
     }
     var winAgainst: [Move] {
-        return [Paper(), Lizard()]
+        return [Rock(), Scissors()]
     }
     
     init(){

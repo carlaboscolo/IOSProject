@@ -3,7 +3,7 @@ class Rock: Move {
         return "Rock"
     }
     var winAgainst: [Move] {
-        return [Scissors(), /*Lizard()*/]
+        return [Scissors(), Lizard()]
     }
     
     init(){
