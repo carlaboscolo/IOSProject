@@ -9,5 +9,16 @@ import UIKit
 
 class AdvancedGameScreen: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    
+    @IBAction func backToFistView(_ sender: UIButton) {
+    
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
+    
     
 }

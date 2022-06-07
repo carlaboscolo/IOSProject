@@ -9,13 +9,14 @@ import UIKit
 
 class SimpleGameScreen: UIViewController {
     
-    @IBOutlet weak var changeSettingBtn: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
 
+    
+    
 
     
     
