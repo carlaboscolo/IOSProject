@@ -11,6 +11,10 @@
 		3AF8D90C284DDE25003107DC /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8D90B284DDE25003107DC /* Controller */; };
 		F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269458284F36AF00428A2B /* SimpleGameScreen.swift */; };
 		F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926945A284F377700428A2B /* AdvancedGameScreen.swift */; };
+		F9269465284F503700428A2B /* MoveSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269464284F503700428A2B /* MoveSlice.swift */; };
+		F9269467284F504500428A2B /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269466284F504500428A2B /* Direction.swift */; };
+		F926948C284F53E300428A2B /* WheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926948B284F53E300428A2B /* WheelView.swift */; };
+		F9269492284F5F2F00428A2B /* testWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269491284F5F2F00428A2B /* testWheel.swift */; };
 		F945BE3A28474B760009416D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3928474B760009416D /* AppDelegate.swift */; };
 		F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3B28474B760009416D /* SceneDelegate.swift */; };
 		F945BE3E28474B760009416D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945BE3D28474B760009416D /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 		3AF8D90B284DDE25003107DC /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
 		F9269458284F36AF00428A2B /* SimpleGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGameScreen.swift; sourceTree = "<group>"; };
 		F926945A284F377700428A2B /* AdvancedGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGameScreen.swift; sourceTree = "<group>"; };
+		F9269464284F503700428A2B /* MoveSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveSlice.swift; sourceTree = "<group>"; };
+		F9269466284F504500428A2B /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		F926948B284F53E300428A2B /* WheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelView.swift; sourceTree = "<group>"; };
+		F9269491284F5F2F00428A2B /* testWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testWheel.swift; sourceTree = "<group>"; };
 		F945BE3628474B760009416D /* MorraCinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorraCinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F945BE3928474B760009416D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F945BE3B28474B760009416D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,11 +82,21 @@
 			path = Scene;
 			sourceTree = "<group>";
 		};
+		F926945D284F475B00428A2B /* WheelMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F9269491284F5F2F00428A2B /* testWheel.swift */,
+				F9269464284F503700428A2B /* MoveSlice.swift */,
+				F9269466284F504500428A2B /* Direction.swift */,
+				F926948B284F53E300428A2B /* WheelView.swift */,
+			);
+			path = WheelMenu;
+			sourceTree = "<group>";
+		};
 		F945BE2D28474B760009416D = {
 			isa = PBXGroup;
 			children = (
 				F945BE3828474B760009416D /* MorraCinese */,
-				837785D3284F35DE0021F8E1 /* MorraCineseTests */,
 				F945BE3728474B760009416D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				F945BE3628474B760009416D /* MorraCinese.app */,
-				837785D2284F35DE0021F8E1 /* MorraCineseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +112,8 @@
 		F945BE3828474B760009416D /* MorraCinese */ = {
 			isa = PBXGroup;
 			children = (
+				F926945D284F475B00428A2B /* WheelMenu */,
 				F926945C284F37F700428A2B /* Scene */,
-				3AD23E2C284DEF2500005A0E /* Tests */,
 				3AF8D90B284DDE25003107DC /* Controller */,
 				3AF8D909284DDE0C003107DC /* Model */,
 				F945BE3928474B760009416D /* AppDelegate.swift */,
@@ -128,7 +145,6 @@
 			);
 			name = MorraCineseTests;
 			productName = MorraCineseTests;
-			productReference = 837785D2284F35DE0021F8E1 /* MorraCineseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F945BE3528474B760009416D /* MorraCinese */ = {
@@ -212,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837785D5284F35DE0021F8E1 /* MorraCineseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,11 +236,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */,
+				F9269465284F503700428A2B /* MoveSlice.swift in Sources */,
+				F926948C284F53E300428A2B /* WheelView.swift in Sources */,
 				F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */,
 				F945BE4428474B760009416D /* MorraCinese.xcdatamodeld in Sources */,
 				F945BE3E28474B760009416D /* ViewController.swift in Sources */,
 				F945BE3A28474B760009416D /* AppDelegate.swift in Sources */,
 				F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */,
+				F9269467284F504500428A2B /* Direction.swift in Sources */,
+				F9269492284F5F2F00428A2B /* testWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
