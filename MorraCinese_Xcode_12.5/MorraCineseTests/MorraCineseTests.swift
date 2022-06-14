@@ -46,6 +46,18 @@ class MorraCineseTests: XCTestCase {
         XCTAssertTrue(game.play(playerMove: Rock(), computerMove: Spock()) == lose, "Error!")
         XCTAssertTrue(game.play(playerMove: Rock(), computerMove: Lizard()) == win, "Error!")
         
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Paper()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Rock()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Scissors()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Spock()) == tie, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Lizard()) == lose, "Error!")
+        
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Paper()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Rock()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Scissors()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Spock()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Lizard()) == tie, "Error!")
+        
         
     }
 
