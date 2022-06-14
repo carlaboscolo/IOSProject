@@ -6,7 +6,7 @@ class Game {
    var playerPoints, computerPoints: Int
 
    init(){
-    availableMoves = [Rock(), Paper(), Scissors(), Lizard(), Spock()]
+    availableMoves = [Rock(), Paper(), Scissors()] // TODO Add Lizard and Spock
     playerPoints = 0
     computerPoints = 0
    }
