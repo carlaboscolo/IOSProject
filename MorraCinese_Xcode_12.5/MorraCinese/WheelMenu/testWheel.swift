@@ -10,7 +10,7 @@ import SwiftUI
 struct testWheel: View {
     @State var degree = 90.0
     let array : [moveSlice] =  [moveSlice(val: "✋"),
-                            moveSlice(val: "✂️"),
+                                moveSlice(val: "✂️", image: Image("forbiceImg")),
                             moveSlice(val: "🗿"),
                             moveSlice(val: "🦎"),
                             moveSlice(val: "🖖")
@@ -21,8 +21,8 @@ struct testWheel: View {
             Color.orange.opacity(0.4).ignoresSafeArea()
                 .hueRotation(Angle(degrees: degree))
             
-            WheelView(degree: 90.0, array: array, circleSize: 180)
-                .offset(y: 300)
+            WheelView(degree: 90.0, array: array, circleSize: 200)
+                .offset(y: 150)
                 .shadow(color: .white, radius: 4, x: 0, y: 0)
         }
     }
