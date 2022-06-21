@@ -4,5 +4,9 @@ class Rock: Move {
     }
     var winAgainst: [Move] {
         return [Scissors(), Lizard()]
-    }  
+    }
+    
+    init(){
+        
+    }
 }

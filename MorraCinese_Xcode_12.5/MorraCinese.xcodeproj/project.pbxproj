@@ -93,6 +93,27 @@
 			path = WheelMenu;
 			sourceTree = "<group>";
 		};
+		837785E8284F398A0021F8E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				837785E6284F39820021F8E1 /* Game.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		837785E9284F39CC0021F8E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				837785EA284F39D80021F8E1 /* Move.swift */,
+				837785EC284F39D80021F8E1 /* Paper.swift */,
+				837785ED284F39D80021F8E1 /* Rock.swift */,
+				837785EB284F39D80021F8E1 /* Scissors.swift */,
+				7C554E4E284F487700137A73 /* Lizard.swift */,
+				7C554E50284F48F500137A73 /* Spock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F945BE2D28474B760009416D = {
 			isa = PBXGroup;
 			children = (
@@ -216,8 +237,6 @@
 			files = (
 				F945BE4928474B780009416D /* LaunchScreen.storyboard in Resources */,
 				F945BE4628474B780009416D /* Assets.xcassets in Resources */,
-				3AF8D90A284DDE0C003107DC /* Model in Resources */,
-				3AF8D90C284DDE25003107DC /* Controller in Resources */,
 				F945BE4128474B760009416D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,8 +260,13 @@
 				F926948C284F53E300428A2B /* WheelView.swift in Sources */,
 				F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */,
 				F945BE4428474B760009416D /* MorraCinese.xcdatamodeld in Sources */,
+				837785E7284F39820021F8E1 /* Game.swift in Sources */,
+				7C554E4F284F487700137A73 /* Lizard.swift in Sources */,
+				837785F1284F39D80021F8E1 /* Rock.swift in Sources */,
 				F945BE3E28474B760009416D /* ViewController.swift in Sources */,
 				F945BE3A28474B760009416D /* AppDelegate.swift in Sources */,
+				837785EE284F39D80021F8E1 /* Move.swift in Sources */,
+				837785F0284F39D80021F8E1 /* Paper.swift in Sources */,
 				F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */,
 				F9269467284F504500428A2B /* Direction.swift in Sources */,
 				F9269492284F5F2F00428A2B /* testWheel.swift in Sources */,

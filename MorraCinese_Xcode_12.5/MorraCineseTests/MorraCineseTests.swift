@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import MorraCinese
 
 class MorraCineseTests: XCTestCase {
 
@@ -20,7 +21,44 @@ class MorraCineseTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let lose = -1
+        let tie = 0
+        let win = 1
+        
         let game = Game()
+        
+        XCTAssertTrue(game.play(playerMove: Paper(), computerMove: Scissors()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Paper(), computerMove: Paper()) == tie, "Error!")
+        XCTAssertTrue(game.play(playerMove: Paper(), computerMove: Rock()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Paper(), computerMove: Spock()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Paper(), computerMove: Lizard()) == lose, "Error!")
+        
+        XCTAssertTrue(game.play(playerMove: Scissors(), computerMove: Rock()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Scissors(), computerMove: Scissors()) == tie, "Error!")
+        XCTAssertTrue(game.play(playerMove: Scissors(), computerMove: Paper()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Scissors(), computerMove: Spock()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Scissors(), computerMove: Lizard()) == win, "Error!")
+        
+        XCTAssertTrue(game.play(playerMove: Rock(), computerMove: Paper()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Rock(), computerMove: Rock()) == tie, "Error!")
+        XCTAssertTrue(game.play(playerMove: Rock(), computerMove: Scissors()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Rock(), computerMove: Spock()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Rock(), computerMove: Lizard()) == win, "Error!")
+        
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Paper()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Rock()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Scissors()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Spock()) == tie, "Error!")
+        XCTAssertTrue(game.play(playerMove: Spock(), computerMove: Lizard()) == lose, "Error!")
+        
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Paper()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Rock()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Scissors()) == lose, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Spock()) == win, "Error!")
+        XCTAssertTrue(game.play(playerMove: Lizard(), computerMove: Lizard()) == tie, "Error!")
+        
+        
     }
 
     func testPerformanceExample() throws {
