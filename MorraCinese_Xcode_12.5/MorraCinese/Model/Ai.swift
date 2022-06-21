@@ -12,7 +12,7 @@ protocol Ai {
     var lastMoves: [Move]
     var usages: [Int]
     
-    init(availableMoves, lastMoves, usages) {
+    init(availableMoves) {
         self.availableMoves = availableMoves
         self.lastMoves = []
         self.usages = []

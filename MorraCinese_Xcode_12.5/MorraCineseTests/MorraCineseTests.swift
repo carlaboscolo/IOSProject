@@ -27,6 +27,7 @@ class MorraCineseTests: XCTestCase {
         let win = 1
         
         let game = Game()
+        let ai = Ai(game.availableMoves)
         
         XCTAssertTrue(game.play(playerMove: Paper(), computerMove: Scissors()) == lose, "Error!")
         XCTAssertTrue(game.play(playerMove: Paper(), computerMove: Paper()) == tie, "Error!")
