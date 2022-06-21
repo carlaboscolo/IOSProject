@@ -18,7 +18,7 @@ protocol Ai {
         self.usages = []
         
         for move in availableMoves{
-    usages.append(0)
+            usages.append(0)
         }
     }
     
