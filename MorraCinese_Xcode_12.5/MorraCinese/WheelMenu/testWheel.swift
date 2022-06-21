@@ -18,8 +18,12 @@ struct testWheel: View {
 
     var body: some View {
         ZStack (alignment: .center){
-            Color.orange.opacity(0.4).ignoresSafeArea()
-                .hueRotation(Angle(degrees: degree))
+            if #available(iOS 14.0, *) {
+                Color.orange.opacity(0.4).ignoresSafeArea()
+                    .hueRotation(Angle(degrees: degree))
+            } else {
+                // Fallback on earlier versions
+            }
             
             WheelView(degree: 90.0, array: array, circleSize: 180)
                 .offset(y: 300)
