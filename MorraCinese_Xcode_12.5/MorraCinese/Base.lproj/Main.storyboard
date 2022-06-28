@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j8t-JK-9Fr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j8t-JK-9Fr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -59,59 +59,84 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rwd-kp-wce">
-                                <rect key="frame" x="20" y="286" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rwd-kp-wce">
+                                <rect key="frame" x="20" y="201" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="4bC-ud-VRC"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FR7-6W-G9p">
-                                <rect key="frame" x="65" y="148" width="28" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FR7-6W-G9p">
+                                <rect key="frame" x="65" y="63" width="27.5" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ7-uY-Ns0">
-                                <rect key="frame" x="321" y="147" width="25" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ7-uY-Ns0">
+                                <rect key="frame" x="321" y="62" width="25" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xb1-Qx-sp3">
-                                <rect key="frame" x="20" y="497" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xb1-Qx-sp3">
+                                <rect key="frame" x="20" y="412" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="vVw-Na-GIO"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="cdR-sM-3K4">
-                                <rect key="frame" x="181" y="733" width="52" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Forbice"/>
-                                <connections>
-                                    <action selector="onClickScissors:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="CJZ-sT-fJe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="LyW-P8-owb">
-                                <rect key="frame" x="323" y="788" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sasso"/>
-                                <connections>
-                                    <action selector="onClickRock:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="6Wk-Ot-LEx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drC-we-dz7" customClass="Paper">
-                                <rect key="frame" x="51" y="788" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Carta"/>
-                                <connections>
-                                    <action selector="onClickPaper:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="mN4-u3-WxZ"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Fwp-J2-fD0">
+                                <rect key="frame" x="8" y="622" width="398" height="195"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cdR-sM-3K4">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="195"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Forbice" image="scissorsIcon"/>
+                                        <connections>
+                                            <action selector="onClickScissors:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="CJZ-sT-fJe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drC-we-dz7" customClass="Paper">
+                                        <rect key="frame" x="135" y="0.0" width="128" height="195"/>
+                                        <state key="normal" title="Carta" image="paperIcon"/>
+                                        <connections>
+                                            <action selector="onClickPaper:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="mN4-u3-WxZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LyW-P8-owb">
+                                        <rect key="frame" x="270" y="0.0" width="128" height="195"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Sasso" image="rockIcon">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onClickRock:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="6Wk-Ot-LEx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Af1-zi-WUN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xb1-Qx-sp3" firstAttribute="trailing" secondItem="rwd-kp-wce" secondAttribute="trailing" id="Fte-Sf-V98"/>
+                            <constraint firstItem="Af1-zi-WUN" firstAttribute="bottom" secondItem="Fwp-J2-fD0" secondAttribute="bottom" constant="45" id="R3V-Uo-4Yg"/>
+                            <constraint firstItem="Fwp-J2-fD0" firstAttribute="top" secondItem="Xb1-Qx-sp3" secondAttribute="bottom" constant="82" id="RgI-QC-BEf"/>
+                            <constraint firstItem="Xb1-Qx-sp3" firstAttribute="top" secondItem="rwd-kp-wce" secondAttribute="bottom" constant="83" id="Sy6-bl-f59"/>
+                            <constraint firstItem="rwd-kp-wce" firstAttribute="top" secondItem="FR7-6W-G9p" secondAttribute="bottom" constant="85" id="TFN-Bu-oqf"/>
+                            <constraint firstItem="Fwp-J2-fD0" firstAttribute="centerX" secondItem="LzR-lM-fXf" secondAttribute="centerX" id="c9q-KO-zuC"/>
+                            <constraint firstItem="FR7-6W-G9p" firstAttribute="baseline" secondItem="ZZ7-uY-Ns0" secondAttribute="baseline" id="gbH-5I-zII"/>
+                            <constraint firstItem="Xb1-Qx-sp3" firstAttribute="leading" secondItem="rwd-kp-wce" secondAttribute="leading" id="mtn-kY-bI0"/>
+                            <constraint firstItem="Xb1-Qx-sp3" firstAttribute="leading" secondItem="LzR-lM-fXf" secondAttribute="leadingMargin" id="qf8-Pp-qkb"/>
+                            <constraint firstItem="FR7-6W-G9p" firstAttribute="leading" secondItem="Af1-zi-WUN" secondAttribute="leading" constant="65" id="snb-fO-FTp"/>
+                            <constraint firstItem="Af1-zi-WUN" firstAttribute="trailing" secondItem="Xb1-Qx-sp3" secondAttribute="trailing" constant="154" id="ueH-PL-IAN"/>
+                            <constraint firstItem="Af1-zi-WUN" firstAttribute="trailing" secondItem="ZZ7-uY-Ns0" secondAttribute="trailing" constant="68" id="zfk-nv-fGJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N3P-U7-Qig"/>
                     <connections>
                         <outlet property="botImageView" destination="rwd-kp-wce" id="WnM-hZ-pbH"/>
+                        <outlet property="paperButton" destination="drC-we-dz7" id="DHJ-NW-fWk"/>
+                        <outlet property="rockButton" destination="LyW-P8-owb" id="qwq-QM-EoF"/>
+                        <outlet property="scissorsButton" destination="cdR-sM-3K4" id="me7-yk-HQX"/>
                         <outlet property="userImageView" destination="Xb1-Qx-sp3" id="7Da-rr-SCH"/>
                     </connections>
                 </viewController>
@@ -217,6 +242,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="paperIcon" width="195" height="195"/>
+        <image name="rockIcon" width="195" height="195"/>
+        <image name="scissorsIcon" width="195" height="195"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
