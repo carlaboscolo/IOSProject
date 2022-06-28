@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AF2BF74286B0673005CD4E9 /* Spock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2BF73286B0673005CD4E9 /* Spock.swift */; };
+		3AF2BF76286B0686005CD4E9 /* Lizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2BF75286B0686005CD4E9 /* Lizard.swift */; };
 		F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269458284F36AF00428A2B /* SimpleGameScreen.swift */; };
 		F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926945A284F377700428A2B /* AdvancedGameScreen.swift */; };
 		F9269465284F503700428A2B /* MoveSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269464284F503700428A2B /* MoveSlice.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AF2BF73286B0673005CD4E9 /* Spock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spock.swift; sourceTree = "<group>"; };
+		3AF2BF75286B0686005CD4E9 /* Lizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lizard.swift; sourceTree = "<group>"; };
 		F9269458284F36AF00428A2B /* SimpleGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGameScreen.swift; sourceTree = "<group>"; };
 		F926945A284F377700428A2B /* AdvancedGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGameScreen.swift; sourceTree = "<group>"; };
 		F9269464284F503700428A2B /* MoveSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveSlice.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				F9A5A210286B036200EA18C5 /* Paper.swift */,
 				F9A5A212286B036200EA18C5 /* Rock.swift */,
 				F9A5A213286B036200EA18C5 /* Scissors.swift */,
+				3AF2BF73286B0673005CD4E9 /* Spock.swift */,
+				3AF2BF75286B0686005CD4E9 /* Lizard.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +270,7 @@
 				F9A5A216286B036200EA18C5 /* Rock.swift in Sources */,
 				F9269465284F503700428A2B /* MoveSlice.swift in Sources */,
 				F926948C284F53E300428A2B /* WheelView.swift in Sources */,
+				3AF2BF74286B0673005CD4E9 /* Spock.swift in Sources */,
 				F9A5A214286B036200EA18C5 /* Paper.swift in Sources */,
 				F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */,
 				F945BE4428474B760009416D /* MorraCinese.xcdatamodeld in Sources */,
@@ -271,6 +278,7 @@
 				F9A5A215286B036200EA18C5 /* Move.swift in Sources */,
 				F945BE3A28474B760009416D /* AppDelegate.swift in Sources */,
 				F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */,
+				3AF2BF76286B0686005CD4E9 /* Lizard.swift in Sources */,
 				F9269467284F504500428A2B /* Direction.swift in Sources */,
 				F9269492284F5F2F00428A2B /* testWheel.swift in Sources */,
 			);
