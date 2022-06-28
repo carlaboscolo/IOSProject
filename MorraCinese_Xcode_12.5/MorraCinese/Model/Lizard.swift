@@ -8,7 +8,4 @@ class Lizard: Move {
         return [Paper(), Spock()]
     }
     
-    init(){
-        
-    }
 }

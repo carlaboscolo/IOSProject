@@ -7,9 +7,6 @@ class Spock: Move {
     var winAgainst: [Move] {
         return [Rock(), Scissors()]
     }
-    
-    init(){
-        
-    }
+   
 }
 
