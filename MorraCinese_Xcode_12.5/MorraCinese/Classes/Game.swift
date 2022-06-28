@@ -1,10 +1,10 @@
 // A class that represents the rock scissors paper game.
-class Game {
+class Game : Move {
    var availableMoves: [Move]
    var playerPoints, computerPoints: Int
 
    init(){
-      availableMoves = [Move.rock, Move.paper, Move.scissors]; // TODO Add Lizard and Spock 
+      //availableMoves = [Move.rock, Move.paper, Move.scissors]; // TODO Add Lizard and Spock
       playerPoints = 0
       computerPoints = 0
    }
@@ -13,7 +13,7 @@ class Game {
     * Plays the game and returns the result
     * -1 if the player lost, 0 if it was a tie, 1 if the player won
     */
-   func play(playerMove: Move, computerMove: Move) -> int {
+   /*func play(playerMove: Move, computerMove: Move) -> int {
       var result: int = 0;
 
       if(playerMove == computerMove) {
@@ -26,6 +26,10 @@ class Game {
          computerPoints++
       }
 
-      return result
-   }
+      return result*/
+   //}
 }
+
+
+
+let  test1 = Game()
