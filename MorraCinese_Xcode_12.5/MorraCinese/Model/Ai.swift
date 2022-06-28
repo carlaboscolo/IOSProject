@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol Ai {
-    var availableMoves [Move]
+class Ai {
+    var availableMoves: [Move]
     var moveProbabilityBoosts: [Int]
     
-    init(availableMoves) {
+    init(availableMoves:[Move]) {
         self.availableMoves = availableMoves
         self.moveProbabilityBoosts = []
         
@@ -28,7 +28,6 @@ protocol Ai {
         var i: Int
         for move in availableMoves{
             if move == playerLastVinningMove{
-    for move2 in move
                moveProbabilityBoosts[i]++
             }
             i++

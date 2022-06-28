@@ -16,9 +16,9 @@
 		837B2029286AFB3300315B6C /* Rock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2022286AFB3300315B6C /* Rock.swift */; };
 		837B202B286AFBF500315B6C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202A286AFBF500315B6C /* Game.swift */; };
 		837B202E286AFCF900315B6C /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202D286AFCF900315B6C /* AiTest.swift */; };
-		837B2031286AFD0B00315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
-		837B2032286AFD0E00315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
 		837B2033286AFD1200315B6C /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202D286AFCF900315B6C /* AiTest.swift */; };
+		837B2034286B02CC00315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
+		837B2035286B02D500315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
 		F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269458284F36AF00428A2B /* SimpleGameScreen.swift */; };
 		F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926945A284F377700428A2B /* AdvancedGameScreen.swift */; };
 		F9269465284F503700428A2B /* MoveSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269464284F503700428A2B /* MoveSlice.swift */; };
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837B2031286AFD0B00315B6C /* MorraCineseTests.swift in Sources */,
+				837B2035286B02D500315B6C /* MorraCineseTests.swift in Sources */,
 				837B2033286AFD1200315B6C /* AiTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837B2032286AFD0E00315B6C /* MorraCineseTests.swift in Sources */,
+				837B2034286B02CC00315B6C /* MorraCineseTests.swift in Sources */,
 				837B2025286AFB3300315B6C /* Move.swift in Sources */,
 				837B2026286AFB3300315B6C /* Scissors.swift in Sources */,
 				F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */,
