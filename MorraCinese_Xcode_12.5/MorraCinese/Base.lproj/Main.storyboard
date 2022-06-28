@@ -165,6 +165,46 @@
                                 <rect key="frame" x="60" y="510" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHh-nK-WkI" customClass="Paper">
+                                <rect key="frame" x="94" y="752" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Carta"/>
+                                <connections>
+                                    <action selector="onClickPaper:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="mm3-qr-3wR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bV-oa-cvi" customClass="Paper">
+                                <rect key="frame" x="123" y="811" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lizard"/>
+                                <connections>
+                                    <action selector="onClickPaper:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="9RO-j8-H63"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="BpR-Ih-2rw">
+                                <rect key="frame" x="320" y="752" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sasso"/>
+                                <connections>
+                                    <action selector="onClickRock:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="hwo-W5-Ibe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nge-pi-aCL">
+                                <rect key="frame" x="228" y="817" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Spock"/>
+                                <connections>
+                                    <action selector="onClickRock:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="0zQ-Q5-EfM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nBn-Mr-cXE">
+                                <rect key="frame" x="190" y="737" width="52" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Forbice"/>
+                                <connections>
+                                    <action selector="onClickScissors:" destination="a4Y-Fe-sv3" eventType="touchUpInside" id="T0b-PM-D6e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="770-xQ-Hxj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -173,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ETd-Fl-dpf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="549"/>
+            <point key="canvasLocation" x="905.79710144927549" y="548.4375"/>
         </scene>
     </scenes>
     <resources>
