@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83C3420A2861B49F004593CC /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C342092861B49F004593CC /* AiTest.swift */; };
+		837B2023286AFB3300315B6C /* Lizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B201C286AFB3300315B6C /* Lizard.swift */; };
+		837B2024286AFB3300315B6C /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B201D286AFB3300315B6C /* Paper.swift */; };
+		837B2025286AFB3300315B6C /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B201E286AFB3300315B6C /* Move.swift */; };
+		837B2026286AFB3300315B6C /* Scissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B201F286AFB3300315B6C /* Scissors.swift */; };
+		837B2027286AFB3300315B6C /* Ai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2020286AFB3300315B6C /* Ai.swift */; };
+		837B2028286AFB3300315B6C /* Spock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2021286AFB3300315B6C /* Spock.swift */; };
+		837B2029286AFB3300315B6C /* Rock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2022286AFB3300315B6C /* Rock.swift */; };
+		837B202B286AFBF500315B6C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202A286AFBF500315B6C /* Game.swift */; };
+		837B202E286AFCF900315B6C /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202D286AFCF900315B6C /* AiTest.swift */; };
+		837B2031286AFD0B00315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
+		837B2032286AFD0E00315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
+		837B2033286AFD1200315B6C /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202D286AFCF900315B6C /* AiTest.swift */; };
 		F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269458284F36AF00428A2B /* SimpleGameScreen.swift */; };
 		F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926945A284F377700428A2B /* AdvancedGameScreen.swift */; };
 		F9269465284F503700428A2B /* MoveSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269464284F503700428A2B /* MoveSlice.swift */; };
@@ -34,9 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AF8D909284DDE0C003107DC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		3AF8D90B284DDE25003107DC /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
-		83C342092861B49F004593CC /* AiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiTest.swift; sourceTree = "<group>"; };
+		837B201C286AFB3300315B6C /* Lizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Lizard.swift; path = MorraCinese/Model/Lizard.swift; sourceTree = SOURCE_ROOT; };
+		837B201D286AFB3300315B6C /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paper.swift; path = MorraCinese/Model/Paper.swift; sourceTree = SOURCE_ROOT; };
+		837B201E286AFB3300315B6C /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Move.swift; path = MorraCinese/Model/Move.swift; sourceTree = SOURCE_ROOT; };
+		837B201F286AFB3300315B6C /* Scissors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Scissors.swift; path = MorraCinese/Model/Scissors.swift; sourceTree = SOURCE_ROOT; };
+		837B2020286AFB3300315B6C /* Ai.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ai.swift; path = MorraCinese/Model/Ai.swift; sourceTree = SOURCE_ROOT; };
+		837B2021286AFB3300315B6C /* Spock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spock.swift; path = MorraCinese/Model/Spock.swift; sourceTree = SOURCE_ROOT; };
+		837B2022286AFB3300315B6C /* Rock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rock.swift; path = MorraCinese/Model/Rock.swift; sourceTree = SOURCE_ROOT; };
+		837B202A286AFBF500315B6C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Game.swift; path = Controller/Game.swift; sourceTree = "<group>"; };
+		837B202D286AFCF900315B6C /* AiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AiTest.swift; path = Tests/AiTest.swift; sourceTree = SOURCE_ROOT; };
+		837B202F286AFD0500315B6C /* MorraCineseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorraCineseTests.swift; path = Tests/MorraCineseTests.swift; sourceTree = SOURCE_ROOT; };
 		F9269458284F36AF00428A2B /* SimpleGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGameScreen.swift; sourceTree = "<group>"; };
 		F926945A284F377700428A2B /* AdvancedGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGameScreen.swift; sourceTree = "<group>"; };
 		F9269464284F503700428A2B /* MoveSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveSlice.swift; sourceTree = "<group>"; };
@@ -72,6 +90,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		837B2014286AFAA900315B6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				837B202A286AFBF500315B6C /* Game.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		837B2015286AFAB200315B6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				837B2020286AFB3300315B6C /* Ai.swift */,
+				837B201C286AFB3300315B6C /* Lizard.swift */,
+				837B201E286AFB3300315B6C /* Move.swift */,
+				837B201D286AFB3300315B6C /* Paper.swift */,
+				837B2022286AFB3300315B6C /* Rock.swift */,
+				837B201F286AFB3300315B6C /* Scissors.swift */,
+				837B2021286AFB3300315B6C /* Spock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		837B202C286AFC8000315B6C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				837B202F286AFD0500315B6C /* MorraCineseTests.swift */,
+				837B202D286AFCF900315B6C /* AiTest.swift */,
+			);
+			name = Tests;
+			path = "/Users/icts21-23.107/Documents/GitHub/IOSProject/MorraCinese_Xcode_12.5/MorraCineseTests";
+			sourceTree = "<absolute>";
+		};
 		F926945C284F37F700428A2B /* Scene */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +146,6 @@
 		F945BE2D28474B760009416D = {
 			isa = PBXGroup;
 			children = (
-				83C342092861B49F004593CC /* AiTest.swift */,
 				F945BE3828474B760009416D /* MorraCinese */,
 				F945BE3728474B760009416D /* Products */,
 			);
@@ -113,10 +162,10 @@
 		F945BE3828474B760009416D /* MorraCinese */ = {
 			isa = PBXGroup;
 			children = (
+				837B2015286AFAB200315B6C /* Model */,
+				837B2014286AFAA900315B6C /* Controller */,
 				F926945D284F475B00428A2B /* WheelMenu */,
 				F926945C284F37F700428A2B /* Scene */,
-				3AF8D90B284DDE25003107DC /* Controller */,
-				3AF8D909284DDE0C003107DC /* Model */,
 				F945BE3928474B760009416D /* AppDelegate.swift */,
 				F945BE3B28474B760009416D /* SceneDelegate.swift */,
 				F945BE3F28474B760009416D /* Main.storyboard */,
@@ -124,6 +173,7 @@
 				F945BE4728474B780009416D /* LaunchScreen.storyboard */,
 				F945BE4A28474B780009416D /* Info.plist */,
 				F945BE4228474B760009416D /* MorraCinese.xcdatamodeld */,
+				837B202C286AFC8000315B6C /* Tests */,
 			);
 			path = MorraCinese;
 			sourceTree = "<group>";
@@ -228,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C3420A2861B49F004593CC /* AiTest.swift in Sources */,
+				837B2031286AFD0B00315B6C /* MorraCineseTests.swift in Sources */,
+				837B2033286AFD1200315B6C /* AiTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +287,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837B2032286AFD0E00315B6C /* MorraCineseTests.swift in Sources */,
+				837B2025286AFB3300315B6C /* Move.swift in Sources */,
+				837B2026286AFB3300315B6C /* Scissors.swift in Sources */,
 				F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */,
+				837B2023286AFB3300315B6C /* Lizard.swift in Sources */,
 				F9269465284F503700428A2B /* MoveSlice.swift in Sources */,
 				F926948C284F53E300428A2B /* WheelView.swift in Sources */,
 				F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */,
 				F945BE4428474B760009416D /* MorraCinese.xcdatamodeld in Sources */,
 				F945BE3E28474B760009416D /* ViewController.swift in Sources */,
+				837B2028286AFB3300315B6C /* Spock.swift in Sources */,
 				F945BE3A28474B760009416D /* AppDelegate.swift in Sources */,
+				837B2029286AFB3300315B6C /* Rock.swift in Sources */,
+				837B2024286AFB3300315B6C /* Paper.swift in Sources */,
+				837B202E286AFCF900315B6C /* AiTest.swift in Sources */,
+				837B202B286AFBF500315B6C /* Game.swift in Sources */,
 				F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */,
+				837B2027286AFB3300315B6C /* Ai.swift in Sources */,
 				F9269467284F504500428A2B /* Direction.swift in Sources */,
 				F9269492284F5F2F00428A2B /* testWheel.swift in Sources */,
 			);

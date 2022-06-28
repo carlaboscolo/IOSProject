@@ -9,13 +9,11 @@ import Foundation
 
 protocol Ai {
     var availableMoves [Move]
-    var lastMoves: [Move]
-    var usages: [Int]
+    var moveProbabilityBoosts: [Int]
     
-    init(availableMoves, lastMoves, usages) {
+    init(availableMoves) {
         self.availableMoves = availableMoves
-        self.lastMoves = []
-        self.usages = []
+        self.moveProbabilityBoosts = []
         
         for move in availableMoves{
             usages.append(0)
@@ -23,6 +21,17 @@ protocol Ai {
     }
     
     func move(availableMoves: [Move], lastMoves: [Move]) -> Move {
+        
+    }
     
+    func update(playerLastVinningMove: Move){
+        var i: Int
+        for move in availableMoves{
+            if move == playerLastVinningMove{
+    for move2 in move
+               moveProbabilityBoosts[i]++
+            }
+            i++
+        }
     }
 }
