@@ -16,9 +16,10 @@
 		837B2029286AFB3300315B6C /* Rock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2022286AFB3300315B6C /* Rock.swift */; };
 		837B202B286AFBF500315B6C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202A286AFBF500315B6C /* Game.swift */; };
 		837B202E286AFCF900315B6C /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202D286AFCF900315B6C /* AiTest.swift */; };
-		837B2033286AFD1200315B6C /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202D286AFCF900315B6C /* AiTest.swift */; };
-		837B2034286B02CC00315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
-		837B2035286B02D500315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202F286AFD0500315B6C /* MorraCineseTests.swift */; };
+		837B205E286B097C00315B6C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B205D286B097C00315B6C /* Tests.swift */; };
+		837B2065286B098400315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2044286B074D00315B6C /* MorraCineseTests.swift */; };
+		837B2066286B099100315B6C /* MorraCineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2044286B074D00315B6C /* MorraCineseTests.swift */; };
+		837B2067286B09A000315B6C /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B202D286AFCF900315B6C /* AiTest.swift */; };
 		F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269458284F36AF00428A2B /* SimpleGameScreen.swift */; };
 		F926945B284F377700428A2B /* AdvancedGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926945A284F377700428A2B /* AdvancedGameScreen.swift */; };
 		F9269465284F503700428A2B /* MoveSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9269464284F503700428A2B /* MoveSlice.swift */; };
@@ -35,7 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		837785D7284F35DE0021F8E1 /* PBXContainerItemProxy */ = {
+		837B2060286B097C00315B6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F945BE2E28474B760009416D /* Project object */;
 			proxyType = 1;
@@ -54,7 +55,10 @@
 		837B2022286AFB3300315B6C /* Rock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rock.swift; path = MorraCinese/Model/Rock.swift; sourceTree = SOURCE_ROOT; };
 		837B202A286AFBF500315B6C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Game.swift; path = Controller/Game.swift; sourceTree = "<group>"; };
 		837B202D286AFCF900315B6C /* AiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AiTest.swift; path = Tests/AiTest.swift; sourceTree = SOURCE_ROOT; };
-		837B202F286AFD0500315B6C /* MorraCineseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorraCineseTests.swift; path = Tests/MorraCineseTests.swift; sourceTree = SOURCE_ROOT; };
+		837B2044286B074D00315B6C /* MorraCineseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MorraCineseTests.swift; path = ../MorraCineseTests/MorraCineseTests.swift; sourceTree = "<group>"; };
+		837B205B286B097C00315B6C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837B205D286B097C00315B6C /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		837B205F286B097C00315B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9269458284F36AF00428A2B /* SimpleGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGameScreen.swift; sourceTree = "<group>"; };
 		F926945A284F377700428A2B /* AdvancedGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGameScreen.swift; sourceTree = "<group>"; };
 		F9269464284F503700428A2B /* MoveSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveSlice.swift; sourceTree = "<group>"; };
@@ -73,7 +77,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		837785CF284F35DE0021F8E1 /* Frameworks */ = {
+		837B2058286B097C00315B6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,15 +116,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		837B202C286AFC8000315B6C /* Tests */ = {
+		837B205C286B097C00315B6C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				837B202F286AFD0500315B6C /* MorraCineseTests.swift */,
 				837B202D286AFCF900315B6C /* AiTest.swift */,
+				837B2044286B074D00315B6C /* MorraCineseTests.swift */,
+				837B205D286B097C00315B6C /* Tests.swift */,
+				837B205F286B097C00315B6C /* Info.plist */,
 			);
-			name = Tests;
-			path = "/Users/icts21-23.107/Documents/GitHub/IOSProject/MorraCinese_Xcode_12.5/MorraCineseTests";
-			sourceTree = "<absolute>";
+			path = Tests;
+			sourceTree = "<group>";
 		};
 		F926945C284F37F700428A2B /* Scene */ = {
 			isa = PBXGroup;
@@ -147,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				F945BE3828474B760009416D /* MorraCinese */,
+				837B205C286B097C00315B6C /* Tests */,
 				F945BE3728474B760009416D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				F945BE3628474B760009416D /* MorraCinese.app */,
+				837B205B286B097C00315B6C /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,7 +180,6 @@
 				F945BE4728474B780009416D /* LaunchScreen.storyboard */,
 				F945BE4A28474B780009416D /* Info.plist */,
 				F945BE4228474B760009416D /* MorraCinese.xcdatamodeld */,
-				837B202C286AFC8000315B6C /* Tests */,
 			);
 			path = MorraCinese;
 			sourceTree = "<group>";
@@ -181,21 +187,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		837785D1284F35DE0021F8E1 /* MorraCineseTests */ = {
+		837B205A286B097C00315B6C /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 837785DB284F35DE0021F8E1 /* Build configuration list for PBXNativeTarget "MorraCineseTests" */;
+			buildConfigurationList = 837B2062286B097C00315B6C /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				837785CE284F35DE0021F8E1 /* Sources */,
-				837785CF284F35DE0021F8E1 /* Frameworks */,
-				837785D0284F35DE0021F8E1 /* Resources */,
+				837B2057286B097C00315B6C /* Sources */,
+				837B2058286B097C00315B6C /* Frameworks */,
+				837B2059286B097C00315B6C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				837785D8284F35DE0021F8E1 /* PBXTargetDependency */,
+				837B2061286B097C00315B6C /* PBXTargetDependency */,
 			);
-			name = MorraCineseTests;
-			productName = MorraCineseTests;
+			name = Tests;
+			productName = Tests;
+			productReference = 837B205B286B097C00315B6C /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F945BE3528474B760009416D /* MorraCinese */ = {
@@ -224,9 +231,8 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					837785D1284F35DE0021F8E1 = {
+					837B205A286B097C00315B6C = {
 						CreatedOnToolsVersion = 12.5.1;
-						LastSwiftMigration = 1250;
 						TestTargetID = F945BE3528474B760009416D;
 					};
 					F945BE3528474B760009416D = {
@@ -248,13 +254,13 @@
 			projectRoot = "";
 			targets = (
 				F945BE3528474B760009416D /* MorraCinese */,
-				837785D1284F35DE0021F8E1 /* MorraCineseTests */,
+				837B205A286B097C00315B6C /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		837785D0284F35DE0021F8E1 /* Resources */ = {
+		837B2059286B097C00315B6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,12 +280,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		837785CE284F35DE0021F8E1 /* Sources */ = {
+		837B2057286B097C00315B6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837B2035286B02D500315B6C /* MorraCineseTests.swift in Sources */,
-				837B2033286AFD1200315B6C /* AiTest.swift in Sources */,
+				837B2065286B098400315B6C /* MorraCineseTests.swift in Sources */,
+				837B2067286B09A000315B6C /* AiTest.swift in Sources */,
+				837B205E286B097C00315B6C /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837B2034286B02CC00315B6C /* MorraCineseTests.swift in Sources */,
 				837B2025286AFB3300315B6C /* Move.swift in Sources */,
 				837B2026286AFB3300315B6C /* Scissors.swift in Sources */,
 				F9269459284F36AF00428A2B /* SimpleGameScreen.swift in Sources */,
@@ -303,6 +309,7 @@
 				837B2024286AFB3300315B6C /* Paper.swift in Sources */,
 				837B202E286AFCF900315B6C /* AiTest.swift in Sources */,
 				837B202B286AFBF500315B6C /* Game.swift in Sources */,
+				837B2066286B099100315B6C /* MorraCineseTests.swift in Sources */,
 				F945BE3C28474B760009416D /* SceneDelegate.swift in Sources */,
 				837B2027286AFB3300315B6C /* Ai.swift in Sources */,
 				F9269467284F504500428A2B /* Direction.swift in Sources */,
@@ -313,10 +320,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		837785D8284F35DE0021F8E1 /* PBXTargetDependency */ = {
+		837B2061286B097C00315B6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F945BE3528474B760009416D /* MorraCinese */;
-			targetProxy = 837785D7284F35DE0021F8E1 /* PBXContainerItemProxy */;
+			targetProxy = 837B2060286B097C00315B6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,40 +347,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		837785D9284F35DE0021F8E1 /* Debug */ = {
+		837B2063286B097C00315B6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MorraCineseTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Gruppo2IOS.MorraCineseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = morraCinese.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorraCinese.app/MorraCinese";
 			};
 			name = Debug;
 		};
-		837785DA284F35DE0021F8E1 /* Release */ = {
+		837B2064286B097C00315B6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MorraCineseTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Gruppo2IOS.MorraCineseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = morraCinese.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -538,11 +542,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		837785DB284F35DE0021F8E1 /* Build configuration list for PBXNativeTarget "MorraCineseTests" */ = {
+		837B2062286B097C00315B6C /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				837785D9284F35DE0021F8E1 /* Debug */,
-				837785DA284F35DE0021F8E1 /* Release */,
+				837B2063286B097C00315B6C /* Debug */,
+				837B2064286B097C00315B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
