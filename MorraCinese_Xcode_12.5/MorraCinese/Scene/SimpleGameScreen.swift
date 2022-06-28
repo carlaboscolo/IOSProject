@@ -11,16 +11,11 @@ class SimpleGameScreen: UIViewController {
     
     @IBOutlet weak var botImageView: UIImageView!
     @IBOutlet weak var userImageView: UIImageView!
-    @IBOutlet weak var paperButton: UIButton!
-    @IBOutlet weak var scissorsButton: UIButton!
-    @IBOutlet weak var rockButton: UIButton!
+   
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let image = UIImage(named: "paperIconBtn.png")
-        paperButton.setImage(image, for: .normal)
         
         
         
@@ -72,8 +67,8 @@ func robotChoiceStart() {
             botImageView.image = UIImage(named: "paper")
             
        
-        default:
-            botImageView.image = UIImage(named: "rock_abbronzata")
+        default: break
+            //botImageView.image = UIImage(named: "rock_abbronzata")
         }
         print(moves.count)
        print(randomIndex)
